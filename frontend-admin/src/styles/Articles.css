@@ -1,0 +1,4 @@
+.next-line-bl::after {
+  content: "\a";
+  white-space: pre;
+}

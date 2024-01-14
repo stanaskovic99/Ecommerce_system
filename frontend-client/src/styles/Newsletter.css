@@ -1,0 +1,34 @@
+.newsletter {
+  background-image: url("../../public/img/newsletter.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header_newsletter {
+  color: white;
+  font-size: 2.5vw;
+}
+
+.text_newsletter {
+  color: white;
+  font-size: 1.5vw;
+}
+
+.input_newsletter {
+  width: 40vw;
+}
+
+@media screen and (max-width: 768px) {
+  .header_newsletter {
+    font-size: 4vw;
+  }
+
+  .text_newsletter {
+    font-size: 2.5vw;
+  }
+}

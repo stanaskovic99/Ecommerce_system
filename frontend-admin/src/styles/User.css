@@ -1,0 +1,104 @@
+.container-create {
+  width: 95% !important;
+}
+
+.row-width {
+  width: 97% !important;
+}
+
+.info-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.info-row-icon {
+  font-size: 22px !important;
+  color: rgb(8, 164, 255);
+  margin-right: 10px;
+}
+
+.w-55 {
+  max-width: 350px;
+}
+
+.info-row-name {
+  font-weight: 600;
+}
+
+.form-input-title {
+  font-weight: 500;
+}
+
+.image-rect {
+  margin-right: auto;
+  object-fit: contain;
+  max-height: 40vh;
+}
+
+.w-150 {
+  width: 150px;
+}
+
+.image-rect-main {
+  margin: 20px;
+  object-fit: contain;
+  max-height: 33vh;
+  width: 85% !important;
+}
+
+.filepond--item {
+  object-fit: contain !important;
+  min-width: 240px !important;
+  width: 100% !important;
+}
+
+.filepond--credits {
+  display: none !important;
+}
+
+.form-input-rectangle {
+  max-width: 240px !important;
+  width: 100% !important;
+  min-width: 0px !important;
+}
+
+.filepond--drop-label {
+  height: auto !important;
+}
+
+.button-form-size {
+  height: 31px;
+  width: 150px !important;
+  margin-left: auto;
+  margin-right: 10px;
+  padding: 0px !important;
+  margin-bottom: 1rem !important;
+}
+
+.input-group-text {
+  min-width: 39px !important;
+}
+
+.select-emails {
+  width: 90% !important;
+  border-left: 0px !important;
+}
+
+.css-1s2u09g-control {
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+
+.height-98 {
+  height: 98% !important;
+}
+
+.desc-area {
+  width: 100%;
+}
+
+.email-message-area {
+  height: 34vh !important;
+}

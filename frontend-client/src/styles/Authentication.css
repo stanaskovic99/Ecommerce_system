@@ -1,0 +1,60 @@
+.button-form-size {
+  height: 31px;
+  width: 150px !important;
+  padding: 0px !important;
+}
+
+.icon-forgot-pass {
+  height: 70px;
+}
+
+.container-registration {
+  margin: 2.5% 25%;
+}
+
+.container-login-auth {
+  width: 400px;
+  margin: 2.5% auto;
+}
+
+.hover-link:hover {
+  color: #0d6efd;
+  cursor: pointer;
+}
+
+.form-input-title {
+  font-weight: 500;
+}
+
+.col-reg-2 {
+  flex: 50% !important;
+}
+
+@media (max-width: 500px) {
+  .container-login-auth {
+    margin: 2.5% 2.5%;
+    width: 95%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .col-reg-2 {
+    flex: 100% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .container-registration {
+    margin: 2.5% 2.5%;
+  }
+
+  .col-reg-2 {
+    flex: 50% !important;
+  }
+}
+
+@media (max-width: 470px) {
+  .col-reg-2 {
+    flex: 100% !important;
+  }
+}

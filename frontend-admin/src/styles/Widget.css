@@ -1,0 +1,39 @@
+.widget {
+  padding: 10px;
+  box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.55);
+  border-radius: 0.375rem;
+  border: 1px solid rgba(0, 0, 0, 0.175);
+}
+
+.widget-button {
+  padding: 5px 7px;
+  border: none;
+  border-radius: 10px;
+}
+
+.widget-button.approved {
+  background-color: #daf9ed;
+  color: #3bb077;
+}
+
+.widget-button.declined {
+  background-color: #fce1e3;
+  color: #d95087;
+}
+
+.widget-button.pending {
+  background-color: #e0e9fc;
+  color: #2a7ade;
+}
+
+.font-size-19 {
+  font-size: 19px;
+}
+
+.more-bold {
+  font-weight: 500;
+}
+
+.inside {
+  margin-top: 5px;
+}

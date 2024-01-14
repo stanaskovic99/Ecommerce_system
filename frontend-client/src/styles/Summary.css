@@ -1,0 +1,27 @@
+.summary_container {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  height: fit-content;
+  max-height: 50vh;
+}
+
+.summary_header {
+  font-weight: 200;
+}
+
+.last {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.widget-button {
+  padding: 5px 7px;
+  border: none;
+  border-radius: 10px;
+}
+
+.button-form-size-ch {
+  width: 150px !important;
+  margin-left: auto;
+}

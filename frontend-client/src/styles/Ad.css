@@ -1,0 +1,45 @@
+.carousel_container {
+  text-align: center;
+  max-height: 65vh;
+  width: 100%;
+  display: flex;
+  background-color: rgb(209, 180, 146);
+}
+
+.icon_carousel {
+  font-size: 2vw;
+  border-radius: 50px;
+}
+
+.caption_carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 25%;
+  bottom: 27% !important;
+  border: 0.7vw solid black;
+  background: rgba(255, 255, 255, 0.364);
+  padding: 10px;
+  padding-top: 15px;
+}
+
+.text_carousel {
+  color: black;
+  font-size: 2.5vw;
+}
+
+p.text_carousel {
+  font-size: 2vw;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+  .text_carousel {
+    font-size: 4vw;
+  }
+
+  p.text_carousel {
+    font-size: 3vw;
+  }
+}

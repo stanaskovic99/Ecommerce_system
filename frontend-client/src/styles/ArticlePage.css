@@ -1,0 +1,94 @@
+.wrapper {
+  height: fit-content;
+  padding: 3% 5%;
+}
+
+.big_image_container {
+  position: relative;
+  width: 86%;
+  margin: 7% 7% 3%;
+}
+
+.big_image {
+  object-fit: contain;
+  width: 100%;
+  max-height: 80vh;
+}
+
+.row_images {
+  padding: 0% 7%;
+}
+
+.little_image_container {
+  width: 13vh;
+  height: 13vh;
+  margin: auto;
+}
+
+.little_image {
+  object-fit: contain;
+  border-radius: 5%;
+  max-height: 13vh;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 5%;
+  box-shadow: 10px 10px 10px rgb(108, 106, 106);
+}
+
+.little_image:hover {
+  max-height: 14vh;
+  width: 110%;
+  height: 110%;
+  box-shadow: 12px 12px 12px rgb(108, 106, 106);
+}
+
+.info_container {
+  position: relative;
+  width: 86%;
+  margin: 7%;
+}
+
+.description {
+  margin: 5% 0%;
+}
+
+.filter_number {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.prise_container {
+  display: flex;
+  flex-direction: row;
+  margin: 3% 0%;
+}
+
+.prise_crossed {
+  color: red;
+  margin-left: 3%;
+  text-decoration: line-through;
+  font-size: large;
+}
+
+.amount_container {
+  align-items: center;
+  font-weight: 700;
+  margin-top: 7%;
+}
+
+.amount {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 5px;
+}
+
+.btn.btn-hover-white:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
+}

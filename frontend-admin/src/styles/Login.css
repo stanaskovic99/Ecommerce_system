@@ -1,0 +1,29 @@
+.login {
+  background-image: url("../../public/img/loginWallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-login {
+  width: 400px !important;
+}
+
+.form-forgot-pass {
+  width: 480px !important;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+@media (max-width: 500px) {
+  .form-forgot-pass {
+    width: 80vw !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .form-login {
+    width: 80vw !important;
+  }
+}

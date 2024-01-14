@@ -1,0 +1,132 @@
+.action-button-save {
+  border-radius: 6px;
+  cursor: pointer;
+  color: rgb(2, 150, 44);
+  margin-right: 10px;
+  font-size: 30px !important;
+}
+
+.action-button-cancel {
+  border-radius: 6px;
+  cursor: pointer;
+  color: rgb(178, 2, 2);
+  font-size: 30px !important;
+}
+
+.action-button-edit {
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 23px !important;
+}
+
+.action-button-admin {
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 23px !important;
+}
+
+.color-true {
+  color: #ec0f0f;
+}
+
+.color-false {
+  color: #0d6efd;
+}
+
+.action-button-delete {
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 23px !important;
+}
+
+.link-edit {
+  color: #212529;
+}
+
+.data-grid-details {
+  width: 96.5vw;
+  border: none !important;
+  text-align: center !important;
+}
+
+.grid-height-90 {
+  height: calc(90vh - var(--topNavbarHeight)) !important;
+}
+
+.grid-height-79 {
+  height: calc(79vh - var(--topNavbarHeight)) !important;
+}
+
+@media (min-width: 992px) {
+  .data-grid-details {
+    width: calc(98vw - var(--offcanvas-width));
+  }
+}
+
+@media (min-width: 1100px) {
+  .data-grid-details {
+    width: calc(96.5vw - var(--offcanvas-width));
+  }
+}
+
+.MuiDataGrid-columnHeader {
+  background-color: #212529;
+  font-weight: 900 !important;
+}
+
+.MuiDataGrid-columnHeaderTitle {
+  color: balck !important;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+}
+
+.MuiDataGrid-columnSeparator {
+  display: none !important;
+}
+
+.MuiDataGrid-menuIconButton {
+  color: white !important;
+}
+
+.MuiDataGrid-sortIcon {
+  color: white !important;
+}
+
+.MuiTablePagination-toolbar {
+  min-height: 10px !important;
+  height: 30px !important;
+  margin: 0px;
+}
+
+.MuiTablePagination-displayedRows {
+  margin: 0px !important;
+  padding-bottom: 5px !important;
+  padding-right: 5px !important;
+}
+
+.MuiTablePagination-actions {
+  margin: 0px !important;
+  padding: 0px !important;
+  min-height: 10px !important;
+  height: 30px !important;
+}
+
+.MuiIconButton-root {
+  padding: 0px 5px !important;
+}
+
+.MuiDataGrid-footerContainer {
+  min-height: 15px !important;
+  height: 40px !important;
+}
+
+.MuiDataGrid-root .MuiDataGrid-cell:focus-within {
+  outline: none !important;
+}
+
+.MuiDataGrid-editInputCell input {
+  text-align: center !important;
+  font-weight: 600;
+}

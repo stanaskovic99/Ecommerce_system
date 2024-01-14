@@ -1,0 +1,75 @@
+.data-grid-details {
+  border: none !important;
+  text-align: center !important;
+}
+
+.grid-height-90 {
+  --topNavbarHeight: 67px;
+  height: calc(90vh - var(--topNavbarHeight)) !important;
+}
+
+.grid-height-79 {
+  --topNavbarHeight: 67px;
+  height: calc(79vh - var(--topNavbarHeight)) !important;
+}
+
+@media (min-width: 768px) {
+}
+
+.MuiDataGrid-columnHeader {
+  font-weight: 900 !important;
+
+  color: white !important;
+  background-color: #212529;
+}
+
+.MuiDataGrid-columnHeaderTitle {
+  font-weight: 700 !important;
+  text-transform: uppercase;
+}
+
+.MuiDataGrid-menuIconButton {
+  color: white !important;
+}
+
+.MuiDataGrid-sortIcon {
+  color: white !important;
+}
+
+.MuiDataGrid-columnSeparator {
+  display: none !important;
+}
+
+.MuiTablePagination-toolbar {
+  min-height: 10px !important;
+  height: 30px !important;
+  margin: 0px;
+}
+
+.MuiTablePagination-selectLabel {
+  margin-bottom: 1px !important;
+}
+
+.MuiTablePagination-displayedRows {
+  margin: 0px !important;
+  padding-bottom: 5px !important;
+  padding-right: 5px !important;
+}
+
+.MuiIconButton-root {
+  padding: 0px 5px !important;
+}
+
+.MuiDataGrid-footerContainer {
+  min-height: 15px !important;
+  height: 40px !important;
+}
+
+.MuiDataGrid-root .MuiDataGrid-cell:focus-within {
+  outline: none !important;
+}
+
+.MuiDataGrid-editInputCell input {
+  text-align: center !important;
+  font-weight: 600;
+}

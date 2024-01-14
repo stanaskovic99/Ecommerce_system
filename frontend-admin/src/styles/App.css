@@ -1,0 +1,32 @@
+.main {
+  margin-top: var(--topNavbarHeight) !important;
+  width: 95vw;
+}
+
+@media (min-width: 992px) {
+  .main {
+    animation: 0.25s linear 1 normal forwards swingViewport;
+    width: calc(98vw - var(--offcanvas-width));
+  }
+
+  @keyframes swingViewport {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(var(--offcanvas-width));
+    }
+  }
+}
+
+@media (min-width: 1100px) {
+  .main {
+    width: calc(98.5vw - var(--offcanvas-width));
+  }
+}
+
+@media (max-width: 670px) {
+  .main {
+    width: 95vw;
+  }
+}

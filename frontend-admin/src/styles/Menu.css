@@ -1,0 +1,111 @@
+:root {
+  --offcanvas-width: 300px;
+  --topNavbarHeight: 67px;
+}
+
+.color-white-btn {
+  background-color: white !important;
+}
+
+.sidebar {
+  width: 300px !important;
+}
+
+.sidebar-title {
+  color: rgb(187, 186, 186);
+  font-size: 13px;
+}
+
+.sidebar-item {
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.sidebar-item:hover {
+  background-color: rgb(240, 240, 255);
+  color: black !important;
+}
+
+.sidebarIcon {
+  margin-right: 5px;
+  font-size: 20px !important;
+}
+
+.sidebar-sett-log {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-sett-log {
+  display: none !important;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.link.active {
+  background-color: rgb(240, 240, 255);
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.link:hover {
+  color: black !important;
+}
+
+.dropdown-toggle::before,
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.dmeb {
+  left: -200% !important;
+  right: auto;
+  top: 45px !important;
+}
+
+.dmrc {
+  z-index: 11212;
+}
+
+@media (min-width: 992px) {
+  .offcanvas-backdrop {
+    display: none;
+  }
+
+  .sidebar {
+    display: flex;
+    -webkit-transform: none !important;
+    transform: none !important;
+    animation: 0.25s linear 1 normal forwards swingViewport1;
+    width: var(--offcanvas-width);
+    visibility: visible !important;
+    height: calc(100% - var(--topNavbarHeight)) !important;
+    top: var(--topNavbarHeight) !important;
+  }
+
+  @keyframes swingViewport1 {
+    from {
+      transform: translateX(-var(--offcanvas-width));
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .sidebar-sett-log {
+    display: none;
+  }
+
+  .nav-sett-log {
+    display: flex !important;
+  }
+}

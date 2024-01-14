@@ -1,0 +1,26 @@
+.toolbar-table {
+  width: max-content;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-bottom: 10px !important;
+  background-color: white;
+}
+
+.h-2 {
+  height: 28px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+.MuiInput-input {
+  font-size: smaller !important;
+}
+
+.MuiInput-root {
+  padding-left: 2px !important;
+}
+
+.MuiInput-underline:before {
+  border-bottom: 0px !important;
+  content: none !important;
+}

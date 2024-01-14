@@ -1,0 +1,37 @@
+.form-stripe {
+  width: 100% !important;
+  align-self: center;
+  padding: 40px;
+}
+
+.payment-element {
+  margin-bottom: 24px;
+}
+
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .form-stripe {
+    width: 80vw;
+    min-width: initial;
+  }
+}
+
+.container-checkout {
+  margin: 2.5% 25%;
+}
+
+@media (max-width: 800px) {
+  .container-checkout {
+    margin: 2.5% 2.5%;
+  }
+}

@@ -1,0 +1,51 @@
+.footer {
+  height: fit-content;
+}
+
+.row_footer {
+  height: inherit;
+}
+
+.ul_footer {
+  list-style: none;
+  padding: 0px;
+}
+
+.li_footer:hover {
+  font-size: larger;
+}
+
+.icon_social_media {
+  width: 40px;
+  height: 40px;
+  border-radius: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+}
+
+.facebook {
+  background-color: #1877f2;
+}
+
+.instagram {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background-clip: content-box;
+  -webkit-background-clip: content-box;
+}
+
+.twitter {
+  background-color: rgb(29, 155, 240);
+}
+
+.pinterest {
+  background-color: #e60023;
+}

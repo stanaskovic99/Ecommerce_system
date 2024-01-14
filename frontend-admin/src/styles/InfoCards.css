@@ -1,0 +1,26 @@
+.card {
+  flex: 1;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.55);
+}
+
+.card-text-money {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.arrow-icon {
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 3px;
+  margin-bottom: 3px;
+  color: green;
+}
+
+.arrow-icon.negative {
+  color: red;
+}
